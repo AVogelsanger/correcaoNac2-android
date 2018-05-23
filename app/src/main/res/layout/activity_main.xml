@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkLanche1"
+            android:layout_marginTop="@dimen/margem_top" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/burger"
+            android:layout_toRightOf="@id/chkLanche1"
+            android:id="@+id/imgLanche1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer_da_tia"
+            android:id="@+id/txtNomeBuguer1"
+            android:layout_toRightOf="@id/imgLanche1"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_marginTop="@dimen/margem_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrecoBuguer1"
+            android:text="@string/quinze"
+            android:layout_toRightOf="@id/imgLanche1"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_below="@id/txtNomeBuguer1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margem_top"
+            android:id="@+id/btnDetalhe1"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkLanche2"
+            android:layout_marginTop="@dimen/margem_top" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/burger"
+            android:layout_toRightOf="@id/chkLanche2"
+            android:id="@+id/imgLanche2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer_da_tia"
+            android:id="@+id/txtNomeBuguer2"
+            android:layout_toRightOf="@id/imgLanche2"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_marginTop="@dimen/margem_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrecoBuguer2"
+            android:text="@string/quinze"
+            android:layout_toRightOf="@id/imgLanche2"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_below="@id/txtNomeBuguer2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margem_top"
+            android:id="@+id/btnDetalhe2"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkLanche3"
+            android:layout_marginTop="@dimen/margem_top" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/burger"
+            android:layout_toRightOf="@id/chkLanche3"
+            android:id="@+id/imgLanche3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hamburguer_da_tia"
+            android:id="@+id/txtNomeBuguer3"
+            android:layout_toRightOf="@id/imgLanche3"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_marginTop="@dimen/margem_top"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPrecoBuguer3"
+            android:text="@string/quinze"
+            android:layout_toRightOf="@id/imgLanche3"
+            android:layout_marginLeft="@dimen/margem_left"
+            android:layout_below="@id/txtNomeBuguer3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margem_top"
+            android:id="@+id/btnDetalhe3"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comprar"
+        android:onClick="comprar"/>
+
+</LinearLayout>

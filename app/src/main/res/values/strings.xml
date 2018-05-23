@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CorrecaoNac</string>
+    <string name="hamburguer_da_tia">hamburguer da tia</string>
+    <string name="quinze">R$15,00</string>
+    <string name="detalhes">detalhes</string>
+    <string name="comprar">comprar</string>
+    <string name="desc_do_produto1">Descição do produto aqui...</string>
+    <string name="toastmsg">O total é:</string>
+</resources>
